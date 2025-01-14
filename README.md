@@ -6,7 +6,7 @@ It utilises the browser's built in local storage to allow CRUD operations carrie
 
 ## Link to app
 
-https://venusy.github.io/todo-app/
+https://venusy.github.io/todo/
 
 ## Table of contents
 
