@@ -1,10 +1,10 @@
 # Todo
 
+[Link to app](https://venusy.github.io/todo/)
+
 A simple yet useful and modern todo app built using vanilla JS, HTML, and SCSS. It features an edit button and a corresponding confirm edit button as an extra feature to facilitate the editing of existing tasks.
 
 It utilises the browser's built in local storage to allow CRUD operations carried out by the user to persist between sessions as long as the user does not clear the local storage.
-
-[Link to app](https://venusy.github.io/todo/)
 
 ## Table of contents
 
