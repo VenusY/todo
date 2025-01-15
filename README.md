@@ -1,4 +1,4 @@
-# Todo App
+# Todo
 
 A simple yet useful and modern todo app built using vanilla JS, HTML, and SCSS. It features an edit button and a corresponding confirm edit button as an extra feature to facilitate the editing of existing tasks.
 
