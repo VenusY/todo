@@ -6,15 +6,15 @@ A simple yet useful and modern todo app built using vanilla JS, HTML, and SCSS. 
 
 It utilises the browser's built in local storage to allow CRUD operations carried out by the user to persist between sessions as long as the user does not clear the local storage.
 
-## Table of contents
+## Table of Contents
 
-- [Built with](#built-with)
+- [Built With](#built-with)
 - [Preview](#preview)
-  - [Desktop version](#desktop-version)
-  - [Mobile version](#mobile-version)
+  - [Desktop Version](#desktop-version)
+  - [Mobile Version](#mobile-version)
 - [Author](#author)
 
-## Built with
+## Built With
 
 - Semantic HTML markup
 - [Sass partials](https://sass-lang.com/documentation/at-rules/use/#partials)
@@ -27,7 +27,7 @@ It utilises the browser's built in local storage to allow CRUD operations carrie
 
 ## Preview
 
-### Desktop version
+### Desktop Version
 
 Dark mode  
 ![Dark desktop version](images/readme-images/dark-desktop.png)
@@ -35,7 +35,7 @@ Dark mode
 Light mode  
 ![Light desktop version](images/readme-images/light-desktop.png)
 
-### Mobile version
+### Mobile Version
 
 Dark mode  
 ![Dark mobile version](images/readme-images/dark-mobile.png)
