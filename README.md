@@ -11,8 +11,8 @@ It utilises the browser's built in local storage to allow CRUD operations carrie
 - [Built With](#built-with)
 - [Why I Built This Project](#why-i-built-this-project)
 - [Preview](#preview)
-  - [Desktop Version](#desktop-version)
-  - [Mobile Version](#mobile-version)
+  - [Desktop Preview](#desktop-preview)
+  - [Mobile Preview](#mobile-preview)
 - [Author](#author)
 
 ## Built With
@@ -34,21 +34,21 @@ tasks persist between sessions.
 
 ## Preview
 
-### Desktop Version
+### Desktop Preview
 
 Dark mode  
-![Dark desktop version](images/readme-images/dark-desktop.png)
+![Dark desktop preview](images/readme-images/dark-desktop.png)
 
 Light mode  
-![Light desktop version](images/readme-images/light-desktop.png)
+![Light desktop preview](images/readme-images/light-desktop.png)
 
-### Mobile Version
+### Mobile Preview
 
 Dark mode  
-![Dark mobile version](images/readme-images/dark-mobile.png)
+![Dark mobile preview](images/readme-images/dark-mobile.png)
 
 Light mode  
-![Light mobile version](images/readme-images/light-mobile.png)
+![Light mobile preview](images/readme-images/light-mobile.png)
 
 ## Author
 
