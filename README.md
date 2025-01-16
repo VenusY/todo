@@ -9,6 +9,7 @@ It utilises the browser's built in local storage to allow CRUD operations carrie
 ## Table of Contents
 
 - [Built With](#built-with)
+- [Why I Built This Project](#why-i-built-this-project)
 - [Preview](#preview)
   - [Desktop Version](#desktop-version)
   - [Mobile Version](#mobile-version)
@@ -24,6 +25,12 @@ It utilises the browser's built in local storage to allow CRUD operations carrie
 - CSS flexbox
 - Mobile-first workflow
 - SVGs
+
+## Why I Built This Project
+
+I built this project because I wanted practice with building an app with full 
+CRUD functionality, and I wanted to challenge myself by having the user-submitted 
+tasks persist between sessions.
 
 ## Preview
 
