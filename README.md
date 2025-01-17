@@ -8,12 +8,31 @@ It utilises the browser's built in local storage to allow CRUD operations carrie
 
 ## Table of Contents
 
+- [How to Use This App](#how-to-use-this-app)
 - [Built With](#built-with)
 - [Why I Built This Project](#why-i-built-this-project)
 - [Preview](#preview)
   - [Desktop Preview](#desktop-preview)
   - [Mobile Preview](#mobile-preview)
 - [Author](#author)
+
+## How to Use This App
+
+⚠️ Because this app uses the localStorage web API to handle the storage and 
+persistence of tasks, if you clear your browsing data or cookies and other site 
+data, it will cause your tasks to be deleted.
+
+- Using the input field at the top of the app, you can add tasks to the list.
+- Clicking the check button on the left before adding a task adds the task in 
+an already completed state.
+- You can toggle a task's status between 'completed' and 'active' by clicking 
+the check button on the left.
+- You can view all tasks, only active tasks, or only completed tasks by clicking 
+on the buttons below the list.
+- You can clear all completed tasks by clicking on the 'Clear Completed' button 
+on the bottom right.
+- To toggle the theme between light and dark mode, you can use the theme button 
+on the top right.
 
 ## Built With
 
