@@ -5,6 +5,16 @@ function retrieveTheme() {
   const htmlTag = document.querySelector('html');
   htmlTag.classList.add(activeTheme);
   htmlTag.classList.remove(inactiveTheme);
+
+  const sunIcon = document.querySelector('.theme-button__sun-icon');
+  const moonIcon = document.querySelector('.theme-button__moon-icon');
+  if (activeTheme === 'dark') {
+    sunIcon.classList.remove('theme-button__icon--hidden');
+    moonIcon.classList.add('theme-button__icon--hidden');
+    return;
+  }
+  sunIcon.classList.add('theme-button__icon--hidden');
+  moonIcon.classList.remove('theme-button__icon--hidden');
 }
 
 window.onload = retrieveTheme();
