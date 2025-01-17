@@ -37,18 +37,18 @@ tasks persist between sessions.
 ### Desktop Preview
 
 Dark mode  
-![Dark desktop preview](images/readme-images/dark-desktop.png)
+![Dark desktop preview](images/readme-images/desktop-dark.png)
 
 Light mode  
-![Light desktop preview](images/readme-images/light-desktop.png)
+![Light desktop preview](images/readme-images/desktop-light.png)
 
 ### Mobile Preview
 
 Dark mode  
-![Dark mobile preview](images/readme-images/dark-mobile.png)
+![Dark mobile preview](images/readme-images/mobile-dark.png)
 
 Light mode  
-![Light mobile preview](images/readme-images/light-mobile.png)
+![Light mobile preview](images/readme-images/mobile-light.png)
 
 ## Author
 
