@@ -20,11 +20,11 @@
 }
 
 @mixin drop-indicator {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   width: 100%;
   height: 3px;
-  background: var(--clr-bright-blue);
+  background: var(--clr-accent);
   border-radius: 1000px;
 }

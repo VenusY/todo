@@ -1,7 +1,3 @@
-:root {
-  --clr-accent: hsl(220, 98%, 61%);
-}
-
 .dark {
   --clr-bg-main: hsl(235, 21%, 11%);
   --clr-bg-secondary: hsl(235, 24%, 19%);
@@ -11,6 +7,7 @@
   --clr-font-secondary: hsl(234, 11%, 52%);
   --clr-font-tertiary: hsl(233, 14%, 35%);
   --clr-shadow: rgba(0, 0, 0, 0.25);
+  --clr-accent: hsl(220, 98%, 61%);
   --linear-gradient: linear-gradient(
     to bottom right,
     hsl(192, 100%, 67%),
@@ -27,6 +24,7 @@
   --clr-font-secondary: hsl(236, 9%, 61%);
   --clr-font-tertiary: hsl(236, 9%, 61%);
   --clr-shadow: rgba(0, 0, 0, 0.1);
+  --clr-accent: hsl(220, 98%, 61%);
   --linear-gradient: linear-gradient(
     to bottom right,
     hsl(192, 100%, 67%),
@@ -197,7 +195,7 @@ header {
   left: 0;
   width: 100%;
   height: 3px;
-  background: var(--clr-bright-blue);
+  background: var(--clr-accent);
   border-radius: 1000px;
 }
 .task--dragover-top::before {
