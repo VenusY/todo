@@ -1,5 +1,5 @@
 :root {
-  --clr-bright-blue: hsl(220, 98%, 61%);
+  --clr-accent: hsl(220, 98%, 61%);
 }
 
 .dark {
@@ -11,6 +11,11 @@
   --clr-font-secondary: hsl(234, 11%, 52%);
   --clr-font-tertiary: hsl(233, 14%, 35%);
   --clr-shadow: rgba(0, 0, 0, 0.25);
+  --linear-gradient: linear-gradient(
+    to bottom right,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
 }
 
 .light {
@@ -22,13 +27,18 @@
   --clr-font-secondary: hsl(236, 9%, 61%);
   --clr-font-tertiary: hsl(236, 9%, 61%);
   --clr-shadow: rgba(0, 0, 0, 0.1);
+  --linear-gradient: linear-gradient(
+    to bottom right,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
 }
 
 body {
   display: flex;
   justify-content: center;
   padding: 2.5rem 24px;
-  background: linear-gradient(to bottom right, hsl(192, 100%, 67%), hsl(280, 87%, 65%)), var(--clr-bg-main);
+  background: var(--linear-gradient), var(--clr-bg-main);
   background-repeat: no-repeat;
   background-size: 100% 200px;
   font-family: "Josefin Sans", sans-serif;
@@ -108,7 +118,7 @@ header {
   background: var(--clr-bg-secondary);
   border-radius: 5px;
   box-shadow: 0 20px 30px var(--clr-shadow);
-  caret-color: var(--clr-bright-blue);
+  caret-color: var(--clr-accent);
 }
 .new-task__task {
   width: 100%;
@@ -138,7 +148,7 @@ header {
   outline-offset: 2px;
 }
 .checkbox:hover, .checkbox--completed {
-  background: linear-gradient(to bottom right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background: var(--linear-gradient);
 }
 .checkbox__inner-circle {
   display: grid;
@@ -179,7 +189,7 @@ header {
   display: none;
 }
 .task--dragging > .task__text {
-  color: var(--clr-bright-blue);
+  color: var(--clr-accent);
 }
 .task--dragover-top::before, .task--dragover-bottom::before {
   content: "";
@@ -201,7 +211,7 @@ header {
   width: 100%;
   margin-right: 16px;
   color: var(--clr-font-main);
-  caret-color: var(--clr-bright-blue);
+  caret-color: var(--clr-accent);
 }
 .task__text:focus {
   outline: none;
@@ -281,7 +291,7 @@ header {
   outline-offset: 2px;
 }
 .filters__filter--selected {
-  color: var(--clr-bright-blue);
+  color: var(--clr-accent);
   pointer-events: none;
 }
 
